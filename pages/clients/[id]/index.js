@@ -2,16 +2,17 @@ import { useRouter } from "next/router"
 
 const ClientProjectPage = () => {
   const router = useRouter();
+
   const loadProjectHandler = () => {
     router.push({
       pathname: '/clients/[id]/[clientprojectid]',
-      query: { id: 'max', clientprojectid: 'proejcta'}
+      query: { id: 'max', clientprojectid: 'projecta'}
     });
   }
   return (
     <div>
-      <h1>TheProject of a Given Client</h1>
-      <button onclick={loadProjectHandler}>Load Project A</button>
+      <h1>The Project of a Given Client</h1>
+      <button onClick={loadProjectHandler}>Load Project A</button>
       </div>
   )
 }

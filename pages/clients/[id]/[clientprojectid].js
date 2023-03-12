@@ -5,7 +5,7 @@ const router = useRouter();
 
   return (
     <div>
-        <h1>SelectedClientProjectPage</h1></div>
+        <h1>Project A</h1></div>
   )
 }
 export default SelectedClientProjectPage
